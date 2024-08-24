@@ -7,7 +7,6 @@
 using namespace std;
 
 const int MIN_ALLOWED_YEAR = 1000;
-
 // Class Book
 // Contains the title, author and year of the book
 class Book
@@ -40,6 +39,7 @@ public:
         return year;
     }
 
+    // Returns the book info in the format of: YYYY - Title by Author
     string getFormattedBookInfo()
     {
         return to_string(getYear()) + " - " + getTitle() + " by " + author.getFormattedFullName();
