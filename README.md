@@ -12,7 +12,20 @@ Otherwise, find an online compiler and copy-paste the code to that environment.
 You can download this example by either, downloading the code as zip or 
 by clonning the repo. 
 
-### Running locally (MacOs via terminal)
+### Running locally
+
+#### Windows (g++ command)
+
+Check if your terminal recognize the `g++` command by running
+```
+g++ --version
+```
+
+If not, the follow these steps to configure your Visual Studio Code (takes around 10 minutes to complete)
+- [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+  - The most important section is: [Example: Install MinGW-x64 on Windows](https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64-on-windows)
+
+#### MacOs (via terminal)
 
 To run this program locally, first run this to compile the code:
 ```
